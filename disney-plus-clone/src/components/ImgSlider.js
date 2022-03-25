@@ -21,6 +21,12 @@ function ImgSlider() {
       <Wrap>
         <img src='/images/slider-badag.jpg' alt='badag' />
       </Wrap>
+      <Wrap>
+        <img src='/images/slider-scale.jpg' alt='scale' />
+      </Wrap>
+      <Wrap>
+        <img src='/images/slider-scales.jpg' alt='scales' />
+      </Wrap>
     </Carousel>
   );
 }
@@ -37,7 +43,7 @@ const Carousel = styled(Slider)`
     }
   }
 
-  li.slick-active button::before {
+  li.slick-active button:before {
     color: white;
   }
 
